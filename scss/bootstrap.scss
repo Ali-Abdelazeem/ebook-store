@@ -1,0 +1,52 @@
+// ariables
+
+// nav 
+$navbar-padding-y : 1rem;
+$navbar-toggler-border-radius: 10px;
+
+// button 
+
+$primary: #C167EF;
+$secondary:#10BCEE ;
+
+
+
+$btn-border-radius:           50px;
+$btn-border-radius-sm:        50px;
+$btn-border-radius-lg:        50px;
+
+$pad-btn-y: 10px;
+$pad-btn-x: 30px;
+$btn-padding-x: $pad-btn-x;
+$btn-padding-y: $pad-btn-y;
+$btn-padding-x-lg:$pad-btn-x ;
+$btn-padding-x-sm: $pad-btn-x;
+$btn-padding-y-sm: $pad-btn-y;
+$btn-padding-y-sm: $pad-btn-y;
+
+
+//general 
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 6,
+  8: $spacer * 8,
+) !default;
+
+$line-height-base: 1.8;
+
+// form
+
+$input-border-radius:         50px  ;
+$input-border-radius-sm:     50px    ;
+$input-border-radius-lg:      50px   ;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+

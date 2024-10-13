@@ -1,0 +1,76 @@
+header {
+  background-image: url(/images/header-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// nav + js classes
+.navbar {
+  transition: all 0.5s;
+}
+.navbar-s {
+  opacity: 0.9;
+}
+
+@media (max-width: 766px) {
+  header .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  header .text-container {
+    text-align: center;
+  }
+}
+
+// icons
+.icon-container {
+  background-color: #f3f6f9;
+}
+
+.icon-container .box {
+}
+
+// end icons
+
+// start details
+
+@media (max-width: 766px) {
+  .details .left > p , h3 {
+text-align: center;
+  }
+
+  .details .right .img-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// start details
+
+// start card-section 
+.card-section .card {
+    background-color: #f3f6f9;
+}
+// start card-section 
+
+// s- download 
+
+
+.download {
+    background: url(../images/download-background.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+// social 
+.social {
+
+}
+
+// bage contact ==> form 
+
+.form {
+    background-color: #F3F6F9;
+}
